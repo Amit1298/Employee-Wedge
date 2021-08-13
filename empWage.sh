@@ -1,9 +1,10 @@
-# Welcome to employee wage compution
-
 #!/bin/bash -x
-present=1
-absent=0
-checkRandom=$((RANDOM%2))
 
-if [ $empCheck -eq ]
-then 
+empCheck=$((RANDOM%2))
+
+if [ $empCheck -eq 1 ]
+then
+   echo Employee is present
+else
+   echo Employee is absent
+fi
